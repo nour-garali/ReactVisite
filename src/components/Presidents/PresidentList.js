@@ -8,7 +8,7 @@ const { Text } = Typography;
 const PresidentList = () => {
   const [President, setPresident] = useState([]);
   const history = useHistory();
-
+  //noor
   useEffect(() => {
     fetch('http://127.0.0.1:5000/President')
       .then(response => response.json())
